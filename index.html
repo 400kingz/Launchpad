@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Second Collective</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="content">
+        <div id="hero">
+            <h1>The Second Collective</h1>
+        </div>
+        <div id="wallet-container">
+            <button id="connect-btn">Connect Wallet</button>
+            <div id="wallet-info" style="display: none;">
+                <input type="text" id="wallet-name-input" placeholder="Name your wallet">
+                <span id="wallet-name" style="display: none;"></span>
+                <span id="wallet-balance">Balance: N/A</span>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <!-- Other grid items -->
+    </div>
+    <script src="node_modules/web3/dist/web3.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

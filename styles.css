@@ -1,0 +1,146 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Additions and modifications to the existing styles.css */
+  body {
+    font-family: sans-serif;
+    background-color: #1a1a1a;
+    color: #fff;
+    position: relative;
+    /* Add position:relative to the body */
+    min-height: 100vh;
+    padding-top: 4rem;
+    /* Add padding-top to move content below wallet-info */
+  }
+  
+  /* Other styles */
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+  }
+  
+  /* Additions and modifications to the existing styles.css */
+  #connect-btn {
+    margin-bottom: 1rem;
+  }
+  
+  #wallet-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Other styles */
+  
+  /* Grid container */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    /* Space between grid items */
+    width: 100%;
+    max-width: 800px;
+    /* Adjust max-width based on your preference */
+    margin: 0 auto;
+  }
+  
+  /* Grid item */
+  .grid-item {
+    flex-basis: calc(50% - 1rem);
+    /* Calculate grid item width based on the gap */
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Style the wallet name */
+  #wallet-name {
+    font-size: 1rem;
+    margin-right: 0.5rem;
+  }
+  
+  /* Style the wallet balance */
+  #wallet-balance {
+    font-size: 1rem;
+  }
+  
+  /* Buttons */
+  button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    background-color: #4b4cff;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #3f3fd3;
+  }
+  
+  /* Connected wallet address */
+  #wallet-address {
+    font-size: 0.9rem;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 0.5rem;
+    border-radius: 3px;
+  }
+  
+  /* Additions and modifications to the existing styles.css */
+  #hero {
+    transition: 0.5s;
+    /* Add transition for smooth animation */
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    transition: 0.5s;
+    /* Add transition for smooth animation */
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    /* Change from 'flex-end' to 'center' to center the elements */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem 2rem;
+    background-color: rgba(30, 30, 30, 0.9);
+    /* Slightly transparent background */
+  }
+  
+  #connect-btn,
+  #wallet-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
+  #wallet-name-input {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: #fff;
+    padding: 0.5rem;
+    border-radius: 3px;
+}
